@@ -69,6 +69,15 @@ main {
   background: darkred !important;
 }
 
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
   display: flex;
   justify-content: center;
