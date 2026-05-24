@@ -16,6 +16,13 @@ main {
   /*flex-grow: 1; if needed*/
 }
 
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
 #category {
   font-size: 1.5rem;
   margin-bottom: 20px;
@@ -71,6 +78,9 @@ main {
 
 .screen {
   display: none;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .screen.active {
