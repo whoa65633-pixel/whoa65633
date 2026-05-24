@@ -102,6 +102,4 @@ function endGame() {
     winnerText.textContent = "IT'S A TIE!";
   }
 }
-console.log(menuScreen.className);
-console.log(gameScreen.className);
-console.log(endScreen.className);
+
