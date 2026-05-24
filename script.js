@@ -1,4 +1,19 @@
+const startBtn = document.getElementById("start-btn");
+const nextBtn = document.getElementById("next-btn");
+
 const menuScreen = document.getElementById("menu-screen");
+const gameScreen = document.getElementById("game-screen");
+const endScreen = document.getElementById("end-screen");
+
+const questionCounter = document.getElementById("question-counter");
+const categoryText = document.getElementById("category");
+const questionBox = document.getElementById("question-box");
+const answersContainer = document.getElementById("answers-container");
+const turnIndicator = document.getElementById("turn-indicator");
+
+const team1ScoreText = document.getElementById("team1-score");
+const team2ScoreText = document.getElementById("team2-score");
+const winnerText = document.getElementById("winner-text");
 let team2Score = 0;
 
 startBtn.addEventListener("click", startGame);
