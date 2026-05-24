@@ -1,3 +1,8 @@
+let currentQuestion = 0;
+let currentTeam = 1;
+
+let team1Score = 0;
+let team2Score = 0;
 const startBtn = document.getElementById("start-btn");
 const nextBtn = document.getElementById("next-btn");
 
@@ -14,7 +19,7 @@ const turnIndicator = document.getElementById("turn-indicator");
 const team1ScoreText = document.getElementById("team1-score");
 const team2ScoreText = document.getElementById("team2-score");
 const winnerText = document.getElementById("winner-text");
-let team2Score = 0;
+
 
 startBtn.addEventListener("click", startGame);
 nextBtn.addEventListener("click", nextQuestion);
