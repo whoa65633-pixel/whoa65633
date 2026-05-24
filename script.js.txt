@@ -1,0 +1,84 @@
+const menuScreen = document.getElementById("menu-screen");
+let team2Score = 0;
+
+startBtn.addEventListener("click", startGame);
+nextBtn.addEventListener("click", nextQuestion);
+
+function startGame() {
+  menuScreen.classList.remove("active");
+  gameScreen.classList.add("active");
+
+  loadQuestion();
+}
+
+function loadQuestion() {
+  const q = questions[currentQuestion];
+
+  questionCounter.textContent = `Question ${currentQuestion + 1} / ${questions.length}`;
+  categoryText.textContent = q.category;
+  questionBox.textContent = q.question;
+
+  turnIndicator.textContent =
+    currentTeam === 1 ? "TEAM A TURN" : "TEAM B TURN";
+
+  answersContainer.innerHTML = "";
+
+  q.answers.forEach((answer, index) => {
+    const btn = document.createElement("button");
+
+    btn.classList.add("answer-btn");
+    btn.textContent = answer;
+
+    btn.addEventListener("click", () => checkAnswer(index, btn));
+
+    answersContainer.appendChild(btn);
+  });
+}
+
+function checkAnswer(index, button) {
+  const q = questions[currentQuestion];
+  const buttons = document.querySelectorAll(".answer-btn");
+
+  buttons.forEach(btn => btn.disabled = true);
+
+  if (index === q.correct) {
+    button.classList.add("correct");
+
+    if (currentTeam === 1) {
+      team1Score += 100;
+      team1ScoreText.textContent = team1Score;
+    } else {
+      team2Score += 100;
+      team2ScoreText.textContent = team2Score;
+    }
+  } else {
+    button.classList.add("wrong");
+    buttons[q.correct].classList.add("correct");
+  }
+}
+
+function nextQuestion() {
+  currentQuestion++;
+
+  currentTeam = currentTeam === 1 ? 2 : 1;
+
+  if (currentQuestion >= questions.length) {
+    endGame();
+    return;
+  }
+
+  loadQuestion();
+}
+
+function endGame() {
+  gameScreen.classList.remove("active");
+  endScreen.classList.add("active");
+
+  if (team1Score > team2Score) {
+    winnerText.textContent = "TEAM A WINS!";
+  } else if (team2Score > team1Score) {
+    winnerText.textContent = "TEAM B WINS!";
+  } else {
+    winnerText.textContent = "IT'S A TIE!";
+  }
+}

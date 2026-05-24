@@ -1,0 +1,27 @@
+const questions = [
+  {
+    category: "Biology",
+    question: "What is the powerhouse of the cell?",
+    answers: [
+      "Nucleus",
+      "Mitochondria",
+      "Ribosome",
+      "Membrane"
+    ],
+    correct: 1
+  },
+
+  {
+    category: "Physics",
+    question: "What force keeps planets in orbit around the Sun?",
+    answers: [
+      "Magnetism",
+      "Friction",
+      "Gravity",
+      "Electricity"
+    ],
+    correct: 2
+  }
+
+  // ADD MORE QUESTIONS HERE
+];
