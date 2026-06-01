@@ -249,4 +249,3 @@ const questions = [
     correct: 1
   }
 ];
-```
