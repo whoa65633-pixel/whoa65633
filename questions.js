@@ -1,6 +1,6 @@
 const questions = [
   {
-    category: "Climate & Weather",
+    category: "Earth & Space Science Unit: Climate & Weather",
     question: "What is the main difference between climate and weather?",
     answers: [
       "Climate is short-term, weather is long-term",
@@ -11,7 +11,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Climate & Weather",
+    category: "Earth & Space Science Unit: Climate & Weather",
     question: "How does latitude affect climate?",
     answers: [
       "It controls ocean salinity",
@@ -22,7 +22,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Climate & Weather",
+    category: "Earth & Space Science Unit: Climate & Weather",
     question: "Ocean currents can:",
     answers: [
       "Only cool land",
@@ -33,7 +33,7 @@ const questions = [
     correct: 2
   },
   {
-    category: "Climate & Weather",
+    category: "Earth & Space Science Unit: Climate & Weather",
     question: "What is orographic precipitation caused by?",
     answers: [
       "Ocean tides",
@@ -44,7 +44,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Climate & Weather",
+    category: "Earth & Space Science Unit: Climate & Weather",
     question: "True or False: Areas near large bodies of water usually have milder temperatures.",
     answers: [
       "True",
@@ -54,7 +54,7 @@ const questions = [
   },
 
   {
-    category: "Greenhouse Effect",
+    category: "Earth & Space Science Unit: Greenhouse Effect",
     question: "Which gas is NOT a major greenhouse gas?",
     answers: [
       "Carbon dioxide",
@@ -65,8 +65,8 @@ const questions = [
     correct: 2
   },
   {
-    category: "Greenhouse Effect",
-    question: "The greenhouse effect is important because it:",
+    category: "Earth & Space Science Unit: Greenhouse Effect",
+    question: "The Earth & Space Science Unit: Greenhouse Effect is important because it:",
     answers: [
       "Cools Earth",
       "Makes Earth habitable by trapping heat",
@@ -76,7 +76,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Greenhouse Effect",
+    category: "Earth & Space Science Unit: Greenhouse Effect",
     question: "Which activity increases greenhouse gases the most?",
     answers: [
       "Planting trees",
@@ -87,7 +87,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Greenhouse Effect",
+    category: "Earth & Space Science Unit: Greenhouse Effect",
     question: "One effect of global warming in polar regions is:",
     answers: [
       "Increased ice formation",
@@ -98,7 +98,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Greenhouse Effect",
+    category: "Earth & Space Science Unit: Greenhouse Effect",
     question: "True or False: Sea levels rise partly due to melting glaciers and ice sheets.",
     answers: [
       "True",
@@ -108,7 +108,7 @@ const questions = [
   },
 
   {
-    category: "Energy Transfer",
+    category: "Earth & Space Science Unit: Energy Transfer",
     question: "Heat transfer in the atmosphere occurs mainly through:",
     answers: [
       "Evaporation only",
@@ -119,7 +119,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Energy Transfer",
+    category: "Earth & Space Science Unit: Energy Transfer",
     question: "Convection happens when:",
     answers: [
       "Light travels through space",
@@ -130,7 +130,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Energy Transfer",
+    category: "Earth & Space Science Unit: Energy Transfer",
     question: "The water cycle includes:",
     answers: [
       "Melting and freezing only",
@@ -141,7 +141,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Energy Transfer",
+    category: "Earth & Space Science Unit: Energy Transfer",
     question: "Evaporation is important because it:",
     answers: [
       "Removes oxygen from air",
@@ -152,7 +152,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Energy Transfer",
+    category: "Earth & Space Science Unit: Energy Transfer",
     question: "True or False: Carbon moves between living things, air, and oceans.",
     answers: [
       "True",
@@ -162,7 +162,7 @@ const questions = [
   },
 
   {
-    category: "Past Climates",
+    category: "Earth & Space Science Unit: Past Climates",
     question: "Ice cores help scientists study:",
     answers: [
       "Earthquakes",
@@ -173,7 +173,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Past Climates",
+    category: "Earth & Space Science Unit: Past Climates",
     question: "Tree rings can show:",
     answers: [
       "Animal populations",
@@ -184,7 +184,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Past Climates",
+    category: "Earth & Space Science Unit: Past Climates",
     question: "Satellites are useful because they:",
     answers: [
       "Predict earthquakes only",
@@ -195,7 +195,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Past Climates",
+    category: "Earth & Space Science Unit: Past Climates",
     question: "Fossils help scientists understand:",
     answers: [
       "Future weather",
@@ -206,7 +206,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Past Climates",
+    category: "Earth & Space Science Unit: Past Climates",
     question: "True or False: Long-term temperature data helps identify climate trends.",
     answers: [
       "True",
@@ -216,7 +216,7 @@ const questions = [
   },
 
   {
-    category: "Real World Impacts",
+    category: "Earth & Space Science Unit: Real world impacts",
     question: "Climate change can increase extreme weather because:",
     answers: [
       "It reduces sunlight",
@@ -227,7 +227,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Real World Impacts",
+    category: "Earth & Space Science Unit: Real world impacts",
     question: "One major impact of rising sea levels is:",
     answers: [
       "More farmland inland",
@@ -238,7 +238,7 @@ const questions = [
     correct: 1
   },
   {
-    category: "Real World Impacts",
+    category: "Earth & Space Science Unit: Real world impacts",
     question: "Tsunamis are usually caused by:",
     answers: [
       "Hurricanes",
