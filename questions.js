@@ -4,11 +4,12 @@ const questions = [
     question: "What is the main difference between climate and weather?",
     answers: [
       "Climate is short-term, weather is long-term",
-      "Climate is long-term patterns, weather is short-term conditions",
+      "Weather only happens in cities",
       "They mean the same thing",
-      "Weather only happens in cities"
+      "Weather only happens in cities",
+      "Climate is long-term patterns, weather is short-term conditions"
     ],
-    correct: 1
+    correct: 3
   },
   {
     category: "Earth & Space Science Unit: Climate & Weather",
@@ -34,14 +35,14 @@ const questions = [
   },
   {
     category: "Earth & Space Science Unit: Climate & Weather",
-    question: "What is orographic precipitation caused by?",
+    question: "What is NOT a present change in climate?",
     answers: [
-      "Ocean tides",
-      "Mountains forcing air to rise and cool",
-      "Earth’s rotation",
-      "Volcano eruptions"
+      "Rising average temperature",
+      "Changing Precipitation patterns",
+      "More severe storms",
+      "Increase in biodiversity"
     ],
-    correct: 1
+    correct: 3
   },
   {
     category: "Earth & Space Science Unit: Climate & Weather",
@@ -79,12 +80,12 @@ const questions = [
     category: "Earth & Space Science Unit: Greenhouse Effect",
     question: "Which activity increases greenhouse gases the most?",
     answers: [
+      "Buring fossil fuels",
       "Planting trees",
-      "Burning fossil fuels",
       "Recycling plastic",
       "Using solar panels"
     ],
-    correct: 1
+    correct: 0
   },
   {
     category: "Earth & Space Science Unit: Greenhouse Effect",
@@ -99,12 +100,12 @@ const questions = [
   },
   {
     category: "Earth & Space Science Unit: Greenhouse Effect",
-    question: "True or False: Sea levels rise partly due to melting glaciers and ice sheets.",
+    question: "True or False: Sea levels rise only due to thermal expansion.",
     answers: [
       "True",
       "False"
     ],
-    correct: 0
+    correct: 1
   },
 
   {
@@ -112,22 +113,22 @@ const questions = [
     question: "Heat transfer in the atmosphere occurs mainly through:",
     answers: [
       "Evaporation only",
-      "Conduction, convection, and radiation",
+      "Magnetism",
       "Photosynthesis",
-      "Magnetism"
+      "Conduction, convection, and radiation"
     ],
-    correct: 1
+    correct: 3
   },
   {
     category: "Earth & Space Science Unit: Energy Transfer",
     question: "Convection happens when:",
     answers: [
       "Light travels through space",
+      "Rock break apart",
       "Hot air rises and cold air sinks",
-      "Rocks break apart",
       "Water freezes"
     ],
-    correct: 1
+    correct: 2
   },
   {
     category: "Earth & Space Science Unit: Energy Transfer",
@@ -144,12 +145,12 @@ const questions = [
     category: "Earth & Space Science Unit: Energy Transfer",
     question: "Evaporation is important because it:",
     answers: [
-      "Removes oxygen from air",
       "Transfers energy and water into the atmosphere",
+      "Removes oxygen from air",
       "Stops clouds from forming",
       "Causes earthquakes"
     ],
-    correct: 1
+    correct: 0
   },
   {
     category: "Earth & Space Science Unit: Energy Transfer",
@@ -220,22 +221,22 @@ const questions = [
     question: "Climate change can increase extreme weather because:",
     answers: [
       "It reduces sunlight",
-      "It destabilizes atmospheric and ocean systems",
       "It stops wind completely",
+      "It destabilizes atmospheric and ocean systems",
       "It lowers sea level everywhere"
     ],
-    correct: 1
+    correct: 2
   },
   {
     category: "Earth & Space Science Unit: Real world impacts",
     question: "One major impact of rising sea levels is:",
     answers: [
       "More farmland inland",
-      "Coastal flooding and displacement of people",
+      "Stronger mountains",
       "Less rainfall",
-      "Stronger mountains"
+      "Coastal flooding and displacement of people"
     ],
-    correct: 1
+    correct: 3
   },
   {
     category: "Earth & Space Science Unit: Real world impacts",
