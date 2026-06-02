@@ -54,6 +54,461 @@ const questions = [
   correct: 1
 },
   {
+  category: "Chemical Reactions",
+  question: "What type of reaction occurs when hydrogen and oxygen combine to form water?",
+  answers: [
+    "Decomposition",
+    "Synthesis",
+    "Combustion"
+  ],
+  correct: 1
+},
+
+{
+  category: "Chemical Reactions",
+  question: "What type of reaction occurs when water breaks down into hydrogen and oxygen?",
+  answers: [
+    "Decomposition",
+    "Neutralization",
+    "Synthesis"
+  ],
+  correct: 0
+},
+
+{
+  category: "Chemical Reactions",
+  question: "What type of reaction occurs when zinc replaces copper in a copper sulfate solution?",
+  answers: [
+    "Single Displacement",
+    "Double Displacement",
+    "Combustion"
+  ],
+  correct: 0
+},
+
+{
+  category: "Chemical Reactions",
+  question: "What type of reaction occurs when silver nitrate and sodium chloride react to form a solid precipitate?",
+  answers: [
+    "Double Displacement",
+    "Decomposition",
+    "Synthesis"
+  ],
+  correct: 0
+},
+
+{
+  category: "Chemical Reactions",
+  question: "What type of reaction occurs when methane burns in oxygen?",
+  answers: [
+    "Neutralization",
+    "Combustion",
+    "Decomposition"
+  ],
+  correct: 1
+},
+  {
+  category: "Compounds & Properties",
+  question: "What is the correct name for NaCl?",
+  answers: [
+    "Sodium Chloride",
+    "Sodium Oxide",
+    "Sodium Nitrate"
+  ],
+  correct: 0
+},
+
+{
+  category: "Compounds & Properties",
+  question: "What is the correct name for CO₂?",
+  answers: [
+    "Carbon Oxide",
+    "Carbon Dioxide",
+    "Carbon Trioxide"
+  ],
+  correct: 1
+},
+
+{
+  category: "Compounds & Properties",
+  question: "Which of the following is a physical property?",
+  answers: [
+    "Burning",
+    "Rusting",
+    "Color"
+  ],
+  correct: 2
+},
+
+{
+  category: "Compounds & Properties",
+  question: "Which of the following is a chemical property?",
+  answers: [
+    "Density",
+    "Melting Point",
+    "Flammability"
+  ],
+  correct: 2
+},
+
+{
+  category: "Compounds & Properties",
+  question: "Which change is a chemical change?",
+  answers: [
+    "Ice Melting",
+    "Paper Burning",
+    "Water Freezing"
+  ],
+  correct: 1
+},
+  {
+  category: "Chemical Formulas",
+  question: "What is the chemical formula for water?",
+  answers: [
+    "CO₂",
+    "H₂O",
+    "NaCl"
+  ],
+  correct: 1
+},
+
+{
+  category: "Chemical Formulas",
+  question: "What is the chemical formula for sodium chloride?",
+  answers: [
+    "NaCl",
+    "NaOH",
+    "HCl"
+  ],
+  correct: 0
+},
+
+{
+  category: "Chemical Formulas",
+  question: "What is the chemical formula for carbon dioxide?",
+  answers: [
+    "CO",
+    "CO₂",
+    "C₂O"
+  ],
+  correct: 1
+},
+
+{
+  category: "Chemical Formulas",
+  question: "Which of the following is an acid?",
+  answers: [
+    "NaOH",
+    "HCl",
+    "NaCl"
+  ],
+  correct: 1
+},
+
+{
+  category: "Chemical Formulas",
+  question: "Which of the following is a base?",
+  answers: [
+    "H₂SO₄",
+    "HCl",
+    "NaOH"
+  ],
+  correct: 2
+},
+  {
+  category: "Environmental Chemistry",
+  question: "Why is chlorine added to drinking water?",
+  answers: [
+    "To change the color of the water",
+    "To kill harmful bacteria",
+    "To make the water taste sweeter"
+  ],
+  correct: 1
+},
+
+{
+  category: "Environmental Chemistry",
+  question: "What is a possible environmental concern of using too much fertilizer?",
+  answers: [
+    "It can pollute rivers and lakes",
+    "It can freeze the soil",
+    "It can make plants stop growing immediately"
+  ],
+  correct: 0
+},
+
+{
+  category: "Environmental Chemistry",
+  question: "Why is carbon dioxide a concern for the environment?",
+  answers: [
+    "It causes water to boil",
+    "It increases the greenhouse effect",
+    "It turns soil into sand"
+  ],
+  correct: 1
+},
+  {
+  category: "Cells & DNA",
+  question: "Which part of the cell contains DNA?",
+  answers: [
+    "Cell Membrane",
+    "Nucleus",
+    "Cytoplasm"
+  ],
+  correct: 1
+},
+
+{
+  category: "Cells & DNA",
+  question: "What is the main purpose of cellular respiration?",
+  answers: [
+    "To produce energy for the cell",
+    "To make food for the cell",
+    "To remove DNA from the cell"
+  ],
+  correct: 0
+},
+
+{
+  category: "Cells & DNA",
+  question: "What do plants need for photosynthesis?",
+  answers: [
+    "Sunlight",
+    "Oxygen",
+    "Nitrogen"
+  ],
+  correct: 0
+},
+
+{
+  category: "Cells & DNA",
+  question: "What is a gene?",
+  answers: [
+    "A type of cell",
+    "A section of DNA that contains instructions",
+    "A part of the cell membrane"
+  ],
+  correct: 1
+},
+
+{
+  category: "Cells & DNA",
+  question: "Which of the following is one of the four nitrogenous bases in DNA?",
+  answers: [
+    "Adenine",
+    "Glucose",
+    "Protein"
+  ],
+  correct: 0
+},
+  {
+  category: "Cell Division",
+  question: "What is the purpose of cell division?",
+  answers: [
+    "To make new cells",
+    "To destroy DNA",
+    "To stop growth"
+  ],
+  correct: 0
+},
+
+{
+  category: "Cell Division",
+  question: "During mitosis, one cell divides into how many cells?",
+  answers: [
+    "One cell",
+    "Two cells",
+    "Four cells"
+  ],
+  correct: 1
+},
+
+{
+  category: "Cell Division",
+  question: "Why do cells divide?",
+  answers: [
+    "For growth and repair",
+    "To make food",
+    "To absorb sunlight"
+  ],
+  correct: 0
+},
+
+{
+  category: "Cell Division",
+  question: "What is cancer?",
+  answers: [
+    "A disease caused by uncontrolled cell division",
+    "A type of healthy cell",
+    "A stage of photosynthesis"
+  ],
+  correct: 0
+},
+
+{
+  category: "Cell Division",
+  question: "Which of the following can increase the risk of cancer?",
+  answers: [
+    "Smoking",
+    "Drinking water",
+    "Sleeping"
+  ],
+  correct: 0
+},
+  {
+  category: "Cell Specialization",
+  question: "What is cell specialization?",
+  answers: [
+    "Cells developing different functions",
+    "Cells becoming smaller",
+    "Cells stopping division",
+    "Cells copying DNA"
+  ],
+  correct: 0
+},
+
+{
+  category: "Cell Specialization",
+  question: "Which specialized cell carries oxygen throughout the body?",
+  answers: [
+    "Red blood cell",
+    "Skin cell",
+    "Bone cell",
+    "Nerve cell"
+  ],
+  correct: 0
+},
+
+{
+  category: "Cell Specialization",
+  question: "Which specialized cell helps send messages through the body?",
+  answers: [
+    "Muscle cell",
+    "Nerve cell",
+    "Blood cell",
+    "Fat cell"
+  ],
+  correct: 1
+},
+
+{
+  category: "Cell Specialization",
+  question: "Which tool is commonly used to view cells?",
+  answers: [
+    "Telescope",
+    "Microscope",
+    "Periscope",
+    "Thermometer"
+  ],
+  correct: 1
+},
+
+{
+  category: "Cell Specialization",
+  question: "What is one benefit of medical imaging technologies such as MRI and X-rays?",
+  answers: [
+    "They help doctors see inside the body without surgery",
+    "They make cells divide faster",
+    "They create new organs",
+    "They increase blood pressure"
+  ],
+  correct: 0
+},
+  {
+  category: "Body Systems",
+  question: "What is the main function of the respiratory system?",
+  answers: [
+    "To digest food",
+    "To exchange gases (oxygen and carbon dioxide)",
+    "To pump blood",
+    "To remove waste from blood"
+  ],
+  correct: 1
+},
+
+{
+  category: "Body Systems",
+  question: "Where does gas exchange mainly happen in the lungs?",
+  answers: [
+    "Alveoli",
+    "Trachea",
+    "Heart",
+    "Diaphragm"
+  ],
+  correct: 0
+},
+
+{
+  category: "Body Systems",
+  question: "What is the main function of the circulatory system?",
+  answers: [
+    "To move oxygen and nutrients around the body",
+    "To break down food",
+    "To make hormones only",
+    "To store energy"
+  ],
+  correct: 0
+},
+
+{
+  category: "Body Systems",
+  question: "What is the main organ of the circulatory system?",
+  answers: [
+    "Lungs",
+    "Heart",
+    "Stomach",
+    "Brain"
+  ],
+  correct: 1
+},
+
+{
+  category: "Body Systems",
+  question: "What is the main function of the digestive system?",
+  answers: [
+    "To break down food into nutrients",
+    "To pump blood",
+    "To exchange oxygen",
+    "To produce hormones only"
+  ],
+  correct: 0
+},
+  {
+  category: "Human & Environmental Impacts",
+  question: "What is a major human impact of cancer research and treatment?",
+  answers: [
+    "It helps improve survival rates and treatments for patients",
+    "It increases air pollution",
+    "It causes ocean acidification",
+    "It reduces oxygen levels in air"
+  ],
+  correct: 0
+},
+
+{
+  category: "Human & Environmental Impacts",
+  question: "Why is pollution a concern for ecosystems?",
+  answers: [
+    "It improves water quality",
+    "It can harm plants and animals in the environment",
+    "It increases oxygen levels in water",
+    "It has no effect on ecosystems"
+  ],
+  correct: 1
+},
+
+{
+  category: "Human & Environmental Impacts",
+  question: "What is a possible environmental effect of ocean acidification?",
+  answers: [
+    "It helps coral reefs grow faster",
+    "It can damage coral reefs and marine life",
+    "It makes oceans less salty",
+    "It increases fish reproduction"
+  ],
+  correct: 1
+}
+  {
     category: "Earth & Space Science Unit: Climate & Weather",
     question: "What is the main difference between climate and weather?",
     answers: [
