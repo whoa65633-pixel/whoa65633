@@ -1,4 +1,58 @@
 const questions = [
+{
+  category: "Chemistry Fundamentals",
+  question: "What is the smallest unit of an element?",
+  answers: [
+    "Molecule",
+    "Atom",
+    "Compound"
+  ],
+  correct: 1
+},
+
+{
+  category: "Chemistry Fundamentals",
+  question: "Which of the following is a compound?",
+  answers: [
+    "Oxygen",
+    "Hydrogen",
+    "Water"
+  ],
+  correct: 2
+},
+
+{
+  category: "Chemistry Fundamentals",
+  question: "What is the pH of a neutral solution?",
+  answers: [
+    "7",
+    "3",
+    "10"
+  ],
+  correct: 0
+},
+
+{
+  category: "Chemistry Fundamentals",
+  question: "Which of the following is an acid?",
+  answers: [
+    "Vinegar",
+    "Soap",
+    "Baking Soda"
+  ],
+  correct: 0
+},
+
+{
+  category: "Chemistry Fundamentals",
+  question: "What does the periodic table organize?",
+  answers: [
+    "Compounds",
+    "Elements",
+    "Molecules"
+  ],
+  correct: 1
+},
   {
     category: "Earth & Space Science Unit: Climate & Weather",
     question: "What is the main difference between climate and weather?",
@@ -248,5 +302,5 @@ const questions = [
       "Volcanic ash clouds only"
     ],
     correct: 1
-  }
+  },
 ];
