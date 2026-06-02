@@ -507,7 +507,7 @@ const questions = [
     "It increases fish reproduction"
   ],
   correct: 1
-}
+},
   {
     category: "Earth & Space Science Unit: Climate & Weather",
     question: "What is the main difference between climate and weather?",
@@ -515,8 +515,7 @@ const questions = [
       "Climate is short-term, weather is long-term",
       "Weather only happens in cities",
       "They mean the same thing",
-      "Weather only happens in cities",
-      "Climate is long-term patterns, weather is short-term conditions"
+      "Weather only happens in cities"
     ],
     correct: 3
   },
