@@ -515,7 +515,7 @@ const questions = [
       "Climate is short-term, weather is long-term",
       "Weather only happens in cities",
       "They mean the same thing",
-      "Weather only happens in cities"
+      "Weather is short-term, climate is long-term"
     ],
     correct: 3
   },
