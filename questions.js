@@ -757,4 +757,122 @@ const questions = [
     ],
     correct: 1
   },
+    {
+  category: "Light & Optics",
+  question: "Which type of light is produced when an object becomes hot enough to glow, such as a light bulb filament?",
+  answers: [
+    "Fluorescence",
+    "Bioluminescence",
+    "Incandescence",
+    "Chemiluminescence"
+  ],
+  correct: 2
+},
+
+{
+  category: "Light & Optics",
+  question: "A glow stick produces light through a chemical reaction. This is an example of:",
+  answers: [
+    "Incandescence",
+    "Phosphorescence",
+    "Fluorescence",
+    "Chemiluminescence"
+  ],
+  correct: 3
+},
+
+{
+  category: "Light & Optics",
+  question: "What best describes the nature of light?",
+  answers: [
+    "Light behaves only as a particle",
+    "Light exhibits both wave-like and particle-like properties",
+    "Light behaves only as a wave",
+    "Light is a form of matter"
+  ],
+  correct: 1
+},
+
+{
+  category: "Light & Optics",
+  question: "Fermat's Principle states that light travels:",
+  answers: [
+    "In a perfectly straight line at all times",
+    "Only through transparent materials",
+    "Along the path that takes the least time",
+    "At the same speed in all substances"
+  ],
+  correct: 2
+},
+
+{
+  category: "Light & Optics",
+  question: "The index of refraction of a material measures:",
+  answers: [
+    "The color of light passing through it",
+    "How much light the material absorbs",
+    "How bright the material appears",
+    "How much the speed of light is reduced in the material"
+  ],
+  correct: 3
+},
+  {
+  category: "Light & Carbon Dioxide",
+  question: "Compared to normal air, carbon dioxide has a:",
+  answers: [
+    "Lower refractive index",
+    "Refractive index of zero",
+    "Higher refractive index",
+    "Refractive index equal to a vacuum"
+  ],
+  correct: 2
+},
+
+{
+  category: "Light & Carbon Dioxide",
+  question: "Because carbon dioxide has a slightly higher refractive index than air, light passing through a region with more CO₂ will:",
+  answers: [
+    "Travel faster and bend away from the region",
+    "Stop completely",
+    "Change color permanently",
+    "Slow down slightly and bend toward the region"
+  ],
+  correct: 3
+},
+
+{
+  category: "Light & Carbon Dioxide",
+  question: "Increasing the concentration of CO₂ in the atmosphere can affect sunlight because CO₂:",
+  answers: [
+    "Creates its own sunlight",
+    "Reflects all incoming solar energy",
+    "Absorbs certain wavelengths of infrared radiation",
+    "Blocks all visible light"
+  ],
+  correct: 2
+},
+
+{
+  category: "Light & Carbon Dioxide",
+  question: "How does an increase in atmospheric CO₂ affect the density of air?",
+  answers: [
+    "CO₂ has no mass, so density is unchanged",
+    "CO₂ is lighter than air, so increasing it decreases air density",
+    "CO₂ removes other gases from the atmosphere",
+    "CO₂ is denser than air, so increasing its concentration can slightly increase air density"
+  ],
+  correct: 3
+},
+
+{
+  category: "Light & Carbon Dioxide",
+  question: "Why is studying the interaction between CO₂ and light important for climate science?",
+  answers: [
+    "It determines the color of the oceans",
+    "It helps explain how greenhouse gases influence Earth's energy balance",
+    "It controls Earth's magnetic field",
+    "It prevents clouds from forming"
+  ],
+  correct: 1
+},
 ];
