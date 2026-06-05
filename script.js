@@ -17,7 +17,8 @@ const winnerText = document.getElementById("winner-text");
 
 let currentQuestion = 0;
 let currentTeam = 1;
-
+let roundScore = 100;
+let roundInterval;
 let team1Score = 0;
 let team2Score = 0;
 
@@ -34,12 +35,29 @@ function startGame() {
 function loadQuestion() {
   const q = questions[currentQuestion];
 
+  // reset round score
+  roundScore = 100;
+
+  // clear old timer if any
+  clearInterval(roundInterval);
+
+  roundInterval = setInterval(() => {
+    roundScore = Math.max(0, roundScore - 5);
+
+    turnIndicator.textContent =
+      currentTeam === 1
+        ? `TEAM A TURN - ${roundScore} pts`
+        : `TEAM B TURN - ${roundScore} pts`;
+  }, 1000);
+
   questionCounter.textContent = `Question ${currentQuestion + 1} / ${questions.length}`;
   categoryText.textContent = q.category;
   questionBox.textContent = q.question;
 
   turnIndicator.textContent =
-    currentTeam === 1 ? "TEAM A TURN" : "TEAM B TURN";
+    currentTeam === 1
+      ? `TEAM A TURN - ${roundScore} pts`
+      : `TEAM B TURN - ${roundScore} pts`;
 
   answersContainer.innerHTML = "";
 
