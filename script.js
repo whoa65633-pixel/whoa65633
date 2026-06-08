@@ -83,10 +83,10 @@ function checkAnswer(index, button) {
     button.classList.add("correct");
 
     if (currentTeam === 1) {
-      team1Score += 100;
+      team1Score += roundScore;
       team1ScoreText.textContent = team1Score;
     } else {
-      team2Score += 100;
+      team2Score += roundScore;
       team2ScoreText.textContent = team2Score;
     }
   } else {
