@@ -816,6 +816,19 @@ const questions = [
   ],
   correct: 3
 },
+
+{
+  category: "Light & Optics",
+  question: "What happens to light when it passes from air into water at an angle?",
+  answers: [
+    "It always travels in a straight line without changing direction",
+    "It speeds up and bends away from the normal",
+    "It slows down and bends toward the normal",
+    "It stops moving completely"
+  ],
+  correct: 2
+},
+  
   {
   category: "Light & Carbon Dioxide",
   question: "Compared to normal air, carbon dioxide has a:",
